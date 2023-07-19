@@ -570,9 +570,9 @@ footer small {
 
 
 
+/* Styles for screens smaller than or equal to 576px */
+@media screen and (max-width: 576px) {
 
-/* responsive section or media query */
-@media screen and (max-width:800px) {
     #menu {
         display: block;
         font-size: 25px;
@@ -585,7 +585,7 @@ footer small {
     }
 
     nav h1 {
-        font-style: 28px;
+        font-size: 28px; 
     }
 
     nav {
@@ -617,5 +617,188 @@ footer small {
         align-self: flex-end;
         margin-right: 20px;
     }
+
+    .goat-banner__section {
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .goat-banner__container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .goat-banner__contents {
+        width: 100%; 
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .goat-banner__img-container img {
+        width: 100%;
+        height: auto; 
+        object-fit: cover; 
+    }
+
+    #extra-btn {
+        margin-top: .5rem;
+        margin-left: 0; 
+    }
+
+    .we-gamer__container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .we-gamer__contents {
+        width: 100%; 
+        text-align: center;
+    }
+
+    .we-gamer__img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .we-gamer__contents h2,
+    .we-gamer__contents p {
+        padding-left: 0; 
+    }
+
+    .funny-video__section {
+        margin-top: 1rem; 
+    }
+
+    .funny-video__cards-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .funny-video__card {
+        width: 100%; 
+        margin-bottom: 1rem;
+    }
+
+    .funny-video__card img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .play-instant__section {
+        margin-top: 1rem; 
+    }
+
+    .play-instant__container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .play-instant__contents {
+        width: 100%; 
+        text-align: center;
+    }
+
+    .play-instant__img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .play-instant__contents h2,
+    .play-instant__contents p {
+        padding-left: 0; 
+    }
+
+    .online-game__section {
+        margin-top: 1rem; 
+    }
+
+    .online-game__container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .online-game__contents {
+        width: 100%; 
+        text-align: center;
+    }
+
+    .online-game__img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .online-game__contents h2,
+    .online-game__contents p {
+        padding-left: 0; 
+    }
+
+    .career__section {
+        margin-top: 1rem; 
+    }
+
+    .career__container,
+    .career-types__town-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .career__contents,
+    .career-img__container {
+        width: 100%; 
+        text-align: center;
+    }
+
+    .career-img__container img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .career__town-list {
+        text-align: center; 
+    }
+
+    .career__contents>h2,
+    .career__contents>p,
+    .career-types__town-container {
+        padding-left: 0; 
+    }
+
+    .icons__container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .icons__container-img {
+        flex-basis: 30%; 
+    }
+
+    .icons__container-img img {
+        width: 50%;
+    }
+
+    .footer__items {
+        width: 100%; 
+    }
+
+    .footer-head__texts,
+    .logos__container {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .footer__instruction {
+        grid-template-columns: repeat(2, max-content); 
+    }
+
+    .footer__instruction p {
+        margin-bottom: 0; 
+    }
+
+    .footer__instruction small {
+        font-size: .6rem; 
+        margin-top: 2px;
+        
+    }
+
 
 }
